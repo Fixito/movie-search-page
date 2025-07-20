@@ -135,6 +135,7 @@ export default function App() {
         <SearchMovieForm
           searchTerm={searchTerm}
           onSearchChange={handleSearchChange}
+          isPending={isPending}
         />
       </div>
 

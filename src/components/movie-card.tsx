@@ -31,7 +31,7 @@ export default function MovieCard({
         <img
           src={imageUrl}
           alt={`Poster of the movie ${title}`}
-          className="bg-background aspect-[2/3] w-full rounded-tl-md rounded-tr-md object-cover group-hover:opacity-75 lg:aspect-auto"
+          className="bg-background aspect-[2/3] w-full rounded-tl-md rounded-tr-md object-cover group-hover:opacity-75"
           loading="lazy"
         />
         {vote_average > 0 && (
